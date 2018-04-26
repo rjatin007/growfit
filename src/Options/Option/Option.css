@@ -1,0 +1,29 @@
+
+.option{
+    width: 150px;
+    height:50px;
+    outline : none;
+    border : none;
+    cursor: pointer;
+    display : block;
+    position: relative;
+    background-color: #fcad26;
+    font-size: 10px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 0px;
+    margin : 10px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px #efa424;
+  }
+  .option:hover{
+    box-shadow: 0 4px #efa424;
+    top: 2px;
+  }
+  .option:active{
+    /* box-shadow: 0 0 #efa424;   or */
+    box-shadow: none;
+    top : 6px;
+  }
